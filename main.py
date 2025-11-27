@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from sqlalchemy import create_engine, URL, text  
 from sqlalchemy.orm import sessionmaker
-
+print("Hello World")
 url = URL.create(
     drivername="postgresql+psycopg2",
     host="localhost",
